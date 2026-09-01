@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fantasydraft"
+version = "0.1.0"
+description = "Quantitative ESPN fantasy-football draft tooling"
+requires-python = ">=3.11"
+dependencies = [
+  "python-dotenv>=1.0",
+  "requests>=2.32",
+]
+
+[project.scripts]
+fetch-espn = "fantasydraft.espn:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
