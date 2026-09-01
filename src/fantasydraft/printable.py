@@ -13,7 +13,6 @@ from reportlab.lib.pagesizes import letter, landscape
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import inch
 from reportlab.platypus import (
-    KeepTogether,
     PageBreak,
     Paragraph,
     SimpleDocTemplate,
@@ -208,7 +207,7 @@ def cover_page(story: list, styles: dict[str, ParagraphStyle]) -> None:
         Spacer(1, 0.12 * inch),
         decision_box("6", "Finish correctly", "One D/ST in Round 15 and one kicker in Round 16. Do not draft backups at either position.", decision_styles),
     ]
-    columns = Table([[KeepTogether(left), KeepTogether(right)]], colWidths=[4.9 * inch, 4.9 * inch])
+    columns = Table([[left, right]], colWidths=[4.9 * inch, 4.9 * inch])
     columns.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP"), ("LEFTPADDING", (0, 0), (-1, -1), 4), ("RIGHTPADDING", (0, 0), (-1, -1), 4)]))
     story.append(columns)
     story.append(Spacer(1, 0.22 * inch))
