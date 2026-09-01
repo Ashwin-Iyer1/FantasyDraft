@@ -6,6 +6,7 @@ Quantitative draft tooling for ESPN Fantasy Football.
 
 The generated kit is tailored to Cao Caliphate's ten-team, full-PPR league:
 
+- [`output/pdf/2026_FantasyDraft_Printable_Cheat_Sheet.pdf`](output/pdf/2026_FantasyDraft_Printable_Cheat_Sheet.pdf): print-ready instructions, all ten slot plans, and a two-page Top 100 fallback board.
 - [`draft_strategy/README.md`](draft_strategy/README.md): draft-night instructions.
 - [`draft_strategy/MASTER_BOARD.md`](draft_strategy/MASTER_BOARD.md): top 200 players ranked by league-scored value over replacement.
 - [`draft_strategy/CONTINGENCIES.md`](draft_strategy/CONTINGENCIES.md): named backups, substitution ladders, fallers, and injury flags.
@@ -16,6 +17,7 @@ Refresh the projections, ADP, rankings, and all Markdown plans with:
 
 ```powershell
 py -m fantasydraft.strategy
+py -m fantasydraft.printable
 ```
 
 ## ESPN connection

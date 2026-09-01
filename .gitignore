@@ -8,3 +8,4 @@ data/espn/*.json
 !data/espn/.gitkeep
 data/strategy/
 research/repos/
+tmp/
