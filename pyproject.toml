@@ -9,11 +9,13 @@ description = "Quantitative ESPN fantasy-football draft tooling"
 requires-python = ">=3.11"
 dependencies = [
   "python-dotenv>=1.0",
+  "reportlab>=4.4",
   "requests>=2.32",
 ]
 
 [project.scripts]
 fetch-espn = "fantasydraft.espn:main"
+print-draft-sheet = "fantasydraft.printable:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
