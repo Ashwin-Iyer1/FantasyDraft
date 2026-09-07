@@ -740,11 +740,13 @@ def render_contingencies(players: list[Player], metadata: dict[str, Any]) -> str
         for p in values
     ]
 
+    rendered_sections = "\n\n".join(sections)
+
     return f"""# Live-Draft Contingencies and Substitutions
 
 Use this file when a planned lane collapses. Stay within a tier when possible; cross positions when the remaining tier has flattened.
 
-{'\n\n'.join(sections)}
+{rendered_sections}
 
 ## Projection-over-market values
 

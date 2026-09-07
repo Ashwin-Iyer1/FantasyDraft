@@ -6,22 +6,22 @@ This is a scenario plan, not a command to reach. At each pick, first take any `S
 
 | Rd | Overall | Primary | Same-position backups | Cross-position pivot | Smash faller | Avail now | Return | Planned roster |
 |---|---|---|---|---|---|---|---|---|
-| 1 | 4 | Bijan Robinson (RB, ATL) | Christian McCaffrey (RB, SF); Jonathan Taylor (RB, IND) | Puka Nacua (WR, LAR) | — | 35% | 0% | RB1 |
-| 2 | 17 | Josh Allen (QB, BUF) | Lamar Jackson (QB, BAL); Drake Maye (QB, NE) | Derrick Henry (RB, BAL) | Justin Jefferson (WR, MIN) | 75% | 63% | QB1 RB1 |
-| 3 | 24 | Chris Olave (WR, NO) | Nico Collins (WR, HOU); Garrett Wilson (WR, NYJ) | — | Saquon Barkley (RB, PHI) | 81% | 1% | QB1 RB1 WR1 |
-| 4 | 37 | Breece Hall (RB, NYJ) | Javonte Williams (RB, DAL); Travis Etienne Jr. (RB, NO) | DeVonta Smith (WR, PHI) | Jeremiyah Love (RB, ARI) | 41% | 18% | QB1 RB2 WR1 |
-| 5 | 44 | Ladd McConkey (WR, LAC) | Tee Higgins (WR, CIN); Jaylen Waddle (WR, DEN) | Travis Etienne Jr. (RB, NO) | Brock Bowers (TE, LV) | 56% | 2% | QB1 RB2 WR2 |
-| 6 | 57 | Terry McLaurin (WR, WAS) | Rome Odunze (WR, CHI); DJ Moore (WR, BUF) | Tyler Warren (TE, IND) | Cam Skattebo (RB, NYG) | 60% | 26% | QB1 RB2 WR3 |
-| 7 | 64 | Rome Odunze (WR, CHI) | Courtland Sutton (WR, DEN); Luther Burden III (WR, CHI) | Harold Fannin Jr. (TE, CLE) | Colston Loveland (TE, CHI) | 42% | 2% | QB1 RB2 WR4 |
-| 8 | 77 | Courtland Sutton (WR, DEN) | Carnell Tate (WR, TEN); Marvin Harrison Jr. (WR, ARI) | George Kittle (TE, SF) | Bhayshul Tuten (RB, JAX) | 49% | 54% | QB1 RB2 WR5 |
-| 9 | 84 | Jaylen Warren (RB, PIT) | Tony Pollard (RB, TEN); Rico Dowdle (RB, PIT) | — | Harold Fannin Jr. (TE, CLE) | 46% | 16% | QB1 RB3 WR5 |
-| 10 | 97 | Travis Kelce (TE, KC) | Dallas Goedert (TE, PHI); Tucker Kraft (TE, GB) | Matthew Golden (WR, GB) | Michael Pittman Jr. (WR, PIT) | 52% | 76% | QB1 RB3 WR5 TE1 |
-| 11 | 104 | Matthew Golden (WR, GB) | Chris Godwin Jr. (WR, TB); Stefon Diggs (WR, WAS) | Kenny Gainwell (RB, TB) | Christian Watson (WR, GB) | 71% | 46% | QB1 RB3 WR6 TE1 |
-| 12 | 117 | Aaron Jones Sr. (RB, MIN) | Kyle Monangai (RB, CHI); Rachaad White (RB, WAS) | — | Sam LaPorta (TE, DET) | 39% | 52% | QB1 RB4 WR6 TE1 |
-| 13 | 124 | Josh Downs (WR, IND) | Makai Lemon (WR, PHI); KC Concepcion (WR, CLE) | Mark Andrews (TE, BAL) | Tucker Kraft (TE, GB) | 54% | 54% | QB1 RB4 WR7 TE1 |
-| 14 | 137 | Jacory Croskey-Merritt (RB, WAS) | Jordan Mason (RB, MIN); Tyjae Spears (RB, TEN) | — | Bo Nix (QB, DEN) | 39% | 67% | QB1 RB5 WR7 TE1 |
-| 15 | 144 | Eagles D/ST (DST, PHI) | Lions D/ST (DST, DET); Browns D/ST (DST, CLE) | — | — | 36% | 34% | QB1 RB5 WR7 TE1 DST1 |
-| 16 | 157 | Harrison Butker (K, KC) | Jake Bates (K, DET); Tyler Loop (K, BAL) | — | — | 36% | 0% | QB1 RB5 WR7 TE1 DST1 K1 |
+| 1 | 4 | Bijan Robinson (RB, ATL) | Christian McCaffrey (RB, SF); Jonathan Taylor (RB, IND) | Puka Nacua (WR, LAR) | — | 36% | 0% | RB1 |
+| 2 | 17 | Josh Allen (QB, BUF) | Lamar Jackson (QB, BAL); Drake Maye (QB, NE) | Derrick Henry (RB, BAL) | Justin Jefferson (WR, MIN) | 77% | 58% | QB1 RB1 |
+| 3 | 24 | Chris Olave (WR, NO) | Nico Collins (WR, HOU); Garrett Wilson (WR, NYJ) | — | Saquon Barkley (RB, PHI) | 82% | 1% | QB1 RB1 WR1 |
+| 4 | 37 | Breece Hall (RB, NYJ) | Travis Etienne Jr. (RB, NO); Cam Skattebo (RB, NYG) | DeVonta Smith (WR, PHI) | Jeremiyah Love (RB, ARI) | 38% | 15% | QB1 RB2 WR1 |
+| 5 | 44 | Colston Loveland (TE, CHI) | Tyler Warren (TE, IND); Harold Fannin Jr. (TE, CLE) | Davante Adams (WR, LAR) | Javonte Williams (RB, DAL) | 56% | 32% | QB1 RB2 WR1 TE1 |
+| 6 | 57 | Terry McLaurin (WR, WAS) | DJ Moore (WR, BUF); Jameson Williams (WR, DET) | — | Cam Skattebo (RB, NYG) | 59% | 22% | QB1 RB2 WR2 TE1 |
+| 7 | 64 | Harold Fannin Jr. (TE, CLE) | Kyle Pitts Sr. (TE, ATL); George Kittle (TE, SF) | Rhamondre Stevenson (RB, NE) | Quinshon Judkins (RB, CLE) | 81% | 34% | QB1 RB2 WR2 TE2 |
+| 8 | 77 | Rhamondre Stevenson (RB, NE) | TreVeyon Henderson (RB, NE); Jaylen Warren (RB, PIT) | Marvin Harrison Jr. (WR, ARI) | — | 36% | 31% | QB1 RB3 WR2 TE2 |
+| 9 | 84 | Christian Watson (WR, GB) | DK Metcalf (WR, PIT); Parker Washington (WR, JAX) | — | Luther Burden III (WR, CHI) | 42% | 28% | QB1 RB3 WR3 TE2 |
+| 10 | 97 | Rico Dowdle (RB, PIT) | Kenny Gainwell (RB, TB); Jonathon Brooks (RB, CAR) | Matthew Golden (WR, GB) | Courtland Sutton (WR, DEN) | 36% | 57% | QB1 RB4 WR3 TE2 |
+| 11 | 104 | Matthew Golden (WR, GB) | Alec Pierce (WR, IND); Brian Thomas Jr. (WR, JAX) | Jonathon Brooks (RB, CAR) | Parker Washington (WR, JAX) | 72% | 53% | QB1 RB4 WR4 TE2 |
+| 12 | 117 | Chris Godwin Jr. (WR, TB) | Jakobi Meyers (WR, JAX); Jayden Reed (WR, GB) | Aaron Jones Sr. (RB, MIN) | Alec Pierce (WR, IND) | 42% | 72% | QB1 RB4 WR5 TE2 |
+| 13 | 124 | Josh Downs (WR, IND) | Jayden Reed (WR, GB); Quentin Johnston (WR, LAC) | Rachaad White (RB, WAS) | Alec Pierce (WR, IND) | 55% | 58% | QB1 RB4 WR6 TE2 |
+| 14 | 137 | Jordan Mason (RB, MIN) | Jacory Croskey-Merritt (RB, WAS); Tyjae Spears (RB, TEN) | — | Bo Nix (QB, DEN) | 44% | 73% | QB1 RB5 WR6 TE2 |
+| 15 | 144 | Eagles D/ST (DST, PHI) | Lions D/ST (DST, DET); Browns D/ST (DST, CLE) | — | — | 36% | 33% | QB1 RB5 WR6 TE2 DST1 |
+| 16 | 157 | Jake Bates (K, DET) | Tyler Loop (K, BAL); Cairo Santos (K, CHI) | — | — | 47% | 0% | QB1 RB5 WR6 TE2 DST1 K1 |
 
 ## Slot 4 operating rules
 
@@ -29,4 +29,4 @@ This is a scenario plan, not a command to reach. At each pick, first take any `S
 - A player with under 25% `Return` should be taken now if he is in your top value tier; waiting is usually the expensive choice.
 - A premium quarterback is viable only in his market/value window; this is a one-QB league, so do not manufacture quarterback scarcity.
 - Draft exactly one D/ST and one kicker, in Rounds 15–16. Stream later rather than spending bench capital on backups.
-- Before every pick, verify current injury news. The board's injury flag comes from ESPN as of 2026-09-01T15:30:16.451000+00:00.
+- Before every pick, verify current injury news. The board's injury flag comes from ESPN as of 2026-09-07T11:30:18.829000+00:00.

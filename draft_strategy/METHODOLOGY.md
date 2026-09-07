@@ -6,9 +6,9 @@ Maximize expected starting-lineup points above what can be replaced in this exac
 
 ## Current inputs
 
-- **ESPN league-scored 2026 projections and ESPN ADP:** fetched 2026-09-01T15:30:16.451000+00:00. ESPN applies this league's full-PPR scoring to `appliedTotal`.
-- **FantasyPros expert consensus:** DynastyProcess snapshot dated 2026-08-28.
-- **Fantasy Football Calculator 10-team PPR ADP:** 8101 drafts from 2026-08-25 through 2026-09-01.
+- **ESPN league-scored 2026 projections and ESPN ADP:** fetched 2026-09-07T11:30:18.829000+00:00. ESPN applies this league's full-PPR scoring to `appliedTotal`.
+- **FantasyPros expert consensus:** DynastyProcess snapshot dated 2026-09-04.
+- **Fantasy Football Calculator 10-team PPR ADP:** 7430 drafts from 2026-08-29 through 2026-09-05.
 - **League configuration:** 10 teams; QB, 2 RB, 2 WR, TE, FLEX, D/ST, K; seven bench; 16-round snake; no keepers.
 
 ## Core calculations
