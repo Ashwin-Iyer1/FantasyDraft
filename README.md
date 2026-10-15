@@ -2,6 +2,24 @@
 
 Quantitative draft tooling for ESPN Fantasy Football.
 
+## Interactive draft room
+
+The [browser draft room](web/) makes the public September 1, 2026 board interactive:
+filter and compare 200 skill players, track your roster and the room's selections,
+inspect roster-aware recommendations, simulate a snake-draft turn, and export or
+restore your scenario. It needs no ESPN account, API key or backend service.
+
+```sh
+cd web
+npm ci
+npm run dev
+```
+
+This is an explicitly dated historical simulation. The UI preserves the original
+strategy rules while disclosing its reconstructed ADP uncertainty; it does not
+claim current player news or the original plan's exact availability probabilities.
+See [setup, model boundaries, and verification](web/README.md).
+
 ## 2026 draft kit
 
 The generated kit is tailored to Cao Caliphate's ten-team, full-PPR league:

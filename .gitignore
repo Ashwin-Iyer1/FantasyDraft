@@ -9,3 +9,5 @@ data/espn/*.json
 data/strategy/
 research/repos/
 tmp/
+/web/node_modules/
+/web/dist/

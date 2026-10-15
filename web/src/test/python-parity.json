@@ -1,0 +1,72 @@
+[
+  {
+    "slot": 5,
+    "round": 1,
+    "rosterIds": [],
+    "playerId": 1,
+    "expected": {
+      "fit": 1.0,
+      "returnProbability": 0.0010718190216661588,
+      "tierDrop": 12.199999999999989,
+      "score": 171.44953904634852
+    }
+  },
+  {
+    "slot": 1,
+    "round": 2,
+    "rosterIds": [
+      1
+    ],
+    "playerId": 12,
+    "expected": {
+      "fit": 1.0,
+      "returnProbability": 0.9253757105237944,
+      "tierDrop": 48.099999999999994,
+      "score": 82.47154265904439
+    }
+  },
+  {
+    "slot": 10,
+    "round": 8,
+    "rosterIds": [
+      1,
+      5,
+      12,
+      20,
+      23,
+      31,
+      35
+    ],
+    "playerId": 48,
+    "expected": {
+      "fit": 0.0,
+      "returnProbability": 0.4087055988133209,
+      "tierDrop": 16.299999999999997,
+      "score": -1000000000.0
+    }
+  },
+  {
+    "slot": 4,
+    "round": 12,
+    "rosterIds": [
+      1,
+      5,
+      12,
+      20,
+      23,
+      31,
+      35,
+      42,
+      55,
+      65,
+      78
+    ],
+    "playerId": 90,
+    "expected": {
+      "fit": 0.0,
+      "returnProbability": 0.9561438253746234,
+      "tierDrop": 22.7,
+      "score": -1000000000.0
+    }
+  }
+]
