@@ -2,6 +2,8 @@
 
 Quantitative draft tooling for ESPN Fantasy Football.
 
+[Open the live draft room](https://ashwiniyer.com/demos/fantasy-draft/index.html) · [Read the case study](https://ashwiniyer.com/projects/fantasy-draft)
+
 ## Interactive draft room
 
 The [browser draft room](web/) makes the public September 1, 2026 board interactive:
