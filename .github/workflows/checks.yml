@@ -1,0 +1,33 @@
+name: Draft strategy and browser checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # The public board exporter reads its immutable September 2026 Git blob.
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - name: Install Python package and test runner
+        run: python -m pip install -e . pytest==8.4.2
+      - name: Offline strategy and connector data tests
+        run: python -m pytest -q
+      - name: Install locked browser dependencies
+        run: npm --prefix web ci
+      - name: Export pinned public board and independent Python parity fixtures
+        run: npm --prefix web run data
+      - name: Draft simulation and Python parity tests
+        run: npm --prefix web test
+      - name: Typecheck and build portable draft room
+        run: npm --prefix web run build

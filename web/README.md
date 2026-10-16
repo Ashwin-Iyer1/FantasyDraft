@@ -109,6 +109,9 @@ bench players and are explicitly labeled as sums, not team-season forecasts.
   conditional returns to six decimal places and pick scores to five.
 - Strict TypeScript checking and Vite production build.
 - The existing six Python tests pass separately after the package is installed.
+- GitHub Actions runs the Python tests, exports the pinned public Git board and
+  fresh Python parity fixtures, then runs Vitest and the production build. It
+  requires no ESPN cookies, private snapshots, or live projection refresh.
 - Chrome QA: simulate prior picks, draft and advance the snake turn, search and
   comparison, reload persistence, reset/restore round trip, actual JSON download,
   and mobile layout without document overflow at 390 pixels. The player table has
